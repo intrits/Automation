@@ -64,3 +64,14 @@ This is a first attempt at creating an automation framework in Java and using th
 3.  Enter valid login credentials and login to the website
 4.  Logout of the website
 5.  Verify a user can logout of the website
+
+# Project structure
+
+![Alt text](/FolderStructure.png?raw=true "Project Structure")
+
+# Cucumber BDD result file
+
+![Alt text](/CucumberResults.png?raw=true "Cucumber Results")
+
+
+
