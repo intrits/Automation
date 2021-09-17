@@ -24,8 +24,8 @@ public class HomePageTestSteps{
     @Then("The title of the page should equal:")
     public void Aseert_Title_Of_HomePage() {
         AssertMethods.assertTitleEquals(DriverClass.driver,"Electronics, Cars, Fashion, Collectibles & More | eBay");
-        DriverClass.QuitDriver();
     }
+    
     @Then("The search text box should be present on the home page")
     public void Aseert_Element_Present() {
         AssertMethods.assertElementExists(DriverClass.driver, By.id("gh-ac"));
